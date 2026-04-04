@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com');
+
+.bodyStyle{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navHeader{
+    display: flex;
+    text-transform: uppercase;
+    gap: 3em;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    z-index: 1000;
+    backdrop-filter: blur(12px);
+}
+.navContent{
+    text-decoration: none;
+    color: black;
+}
+/* .logo img{
+    width: 10vw;
+    height: 25vh;
+    position: relative;
+    transition: all 0.5s ease;
+}*/
+.icons img:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    border-radius: 15px;
+} 
+ .icons{
+    display: flex;
+    width: inherit;
+    gap: 3em;
+    position: absolute;
+    left: 1300px;
+    top: 5px;
+    padding-bottom: 2em;
+    transition: all 0.5s ease;
+ }
+ .icons img{
+    width: 3vw;
+ }
+ .firstPoster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #2d3436, #636e72);
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.3);
+    margin: 2em;
+   
+ }
+ .opening{
+   font-size: 2.5em;
+   text-transform: uppercase;
+   font-weight: 800;
+   line-height: 2px;
+ }
+ .opening span{
+   color: whitesmoke;
+   letter-spacing: 4px;
+ }
+ .speech{
+   width: 62%;
+   color: white;
+   border: 1px solid white;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+   padding: 2em;
+   transition: transform 3s ease;
+   animation: borderColors 3s infinite;
+}
+.speech:hover{
+   animation-play-state: paused;
+}
+.shoeIcon{
+    margin-right: 10em;
+}
+ .shoeIcon img{
+    transform: rotateY(-180deg)rotateZ(-55deg);
+    margin-bottom: -6em;
+    filter: drop-shadow( 20px 20px 12px rgba(0, 0, 0, 0.4));
+ }
+ .impact{
+    margin-left: 5em;
+ }
+ @keyframes borderColors{
+    from{
+        border-color: white;
+        transform: scale(1);
+    }
+    to{
+        border-color: black;
+        transform: scale(1);
+    }
+ }
+ .head{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5em;
+ }
+ .topFeatures{
+    display: flex;
+    flex: 1;
+    width: 1100px;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: auto 12em;
+    position: relative;
+ }
+ .topFeatures img{
+    object-fit: cover;
+    width: 20vw;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    position: relative;
+ }
+ .topFeatures img:hover{
+   transform: translateY(-5px);
+   box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.2);
+ }
+ .upperSection{
+   background-color: rgba(0, 0, 0, 0.2);
+   padding-bottom: 2em;
+ }
+ .shoeDetails{
+   display: grid;
+    position: absolute;
+   bottom: 4px;
+   width: 27.95%; 
+   background-color: rgba(0, 0, 0, 0.3);
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   text-align: center;
+   color: white;
+   opacity: 0;
+   transition: all 0.2s ease;
+ }
+ .shoeDetails:hover{
+  opacity: 1;
+ }
+ .partyShoes{
+   display: grid;
+   grid-template-columns: repeat(2, 20vw);
+   width: 1200px;
+   margin: 2em;
+   row-gap: 3em;
+   border-right: 10px solid black;
+ }
+ .partyShoes img{
+   width: 15vw;
+   border-radius: 5px;
+   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.2);
+ }
+ .partyShoes img:hover{
+   box-shadow:5px 5px 10px #736e72;
+ }
+ h2{
+   margin-top: 3em;
+   margin-left: 1.7em;
+ }
+ .collection{
+   display: flex;
+ }
