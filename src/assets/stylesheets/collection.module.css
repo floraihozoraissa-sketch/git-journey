@@ -151,15 +151,17 @@
   opacity: 1;
  }
  .partyShoes{
-   display: grid;
-   grid-template-columns: repeat(2, 20vw);
-   width: 1200px;
-   margin: 2em;
-   row-gap: 3em;
-   border-right: 10px solid black;
+   display: flex;
+   flex: 1;
+   flex-wrap: wrap;
+   width: 1500px;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 2em;
  }
  .partyShoes img{
    width: 15vw;
+   height: 35vh;
    border-radius: 5px;
    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.2);
  }
@@ -170,6 +172,31 @@
    margin-top: 3em;
    margin-left: 1.7em;
  }
- .collection{
-   display: flex;
+ .prices{
+  position: absolute;
+  top: 0;
+  left: 10em;
+  transform: rotateZ(40deg);
+ }
+ .prices p{
+  padding: 0.4em 0.7em;
+  background-color: rgba(70, 100, 200, 0.8);
+  transition: all 0.4s ease;
+ }
+ .prices p:hover{
+  transform: scale(1.1);
+  background-color: rgba(80, 80, 230, 0.8);
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+ }
+ .picture{
+  position: relative;
+ }
+ .buttons button{
+  position: inherit;
+  border: none;
+  padding: 1em 6.3em ;
+  border-radius: 5px;
+  background-color: rgba(70, 70, 200, 0.85);
+  margin: 2em 0;
  }

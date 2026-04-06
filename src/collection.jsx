@@ -4,6 +4,11 @@ import women1 from "./assets/images/women.jpeg"
 import women2 from "./assets/images/womenShoes.jpeg"
 import women3 from "./assets/images/girl.jpeg"
 import shoes4 from "./assets/images/men.jpeg"
+import sneakers1 from "./assets/images/sneakers1.jpeg"
+import sneakers2 from "./assets/images/sneakers2.jpeg"
+import sneakers3 from "./assets/images/boy.jpeg"
+import childgirl from "./assets/images/childgirl.jpeg"
+import childboy from "./assets/images/childboy.jpeg"
 import { Navbar } from "./Navbar"
 
 export const Collection = () => {
@@ -56,37 +61,102 @@ export const Collection = () => {
         </div>
         </div>
         <h2>PARTY MAKEOVER</h2>
-        <div className={styles.collection}>
         <div className={styles.partyShoes}>
-            <div>
+            <div className = {styles.picture}>
             <img src={shoes4} alt="Missing shoes" />
+             <div className ={styles.prices}>
+             <p>$10.05</p>
             </div>
-            <div>
+            <div className = {styles.buttons}>
+                <button>BUY NOW</button>
+            </div>
+            </div>
+            <div className = {styles.picture}>
                 <img src={women1} alt="Missing shoes" />
+                 <div className ={styles.prices}>
+             <p>$10.05</p>
             </div>
-            <div>
-            <img src={shoes4} alt="Missing shoes" />
+            <div className = {styles.buttons}>
+                <button>BUY NOW</button>
             </div>
-            <div>
-                <img src={women1} alt="Missing shoes" />
             </div>
-        </div>
-         <div className={styles.partyShoes}>
             
-            <div>
+            <div className = {styles.picture}>
             <img src={shoes4} alt="Missing shoes" />
+             <div className ={styles.prices}>
+             <p>$10.05</p>
             </div>
-            <div>
+            <div className = {styles.buttons}>
+                <button>BUY NOW</button>
+            </div>
+            </div>
+            <div className = {styles.picture}>
                 <img src={women1} alt="Missing shoes" />
+                 <div className ={styles.prices}>
+             <p>$10.05</p>
             </div>
-            <div>
-            <img src={shoes4} alt="Missing shoes" />
+            <div className = {styles.buttons}>
+                <button>BUY NOW</button>
             </div>
-            <div>
+            </div>
+            <div className = {styles.picture}>
                 <img src={women1} alt="Missing shoes" />
+                 <div className ={styles.prices}>
+             <p>$10.05</p>
+            </div>
+            <div className = {styles.buttons}>
+                <button>BUY NOW</button>
+            </div>
             </div>
         </div>
-        </div>
+        <h2>RUNNING SHOES</h2>
+       <div className={styles.partyShoes}>
+            <div className = {styles.picture}>
+            <img src={sneakers1} alt="Missing shoes" />
+            <div className ={styles.prices}>
+             <p>$10.05</p>
+            </div>
+            <div className = {styles.buttons}>
+                <button>BUY NOW</button>
+            </div>
+            </div>
+            <div className = {styles.picture}>
+                <img src={sneakers2} alt="Missing shoes" />
+                 <div className ={styles.prices}>
+             <p>$10.05</p>
+            </div>
+            <div className = {styles.buttons}>
+                <button>BUY NOW</button>
+            </div>
+            </div>
+            <div className = {styles.picture}>
+            <img src={sneakers3} alt="Missing shoes" />
+             <div className ={styles.prices}>
+             <p>$10.05</p>
+            </div>
+            <div className = {styles.buttons}>
+                <button>BUY NOW</button>
+            </div>
+            </div>
+            <div className = {styles.picture}>
+                <img src={childgirl} alt="Missing shoes" />
+                 <div className ={styles.prices}>
+             <p>$10.05</p>
+            </div>
+            <div className = {styles.buttons}>
+                <button>BUY NOW</button>
+            </div>
+            </div>
+            <div className = {styles.picture}>
+                <img src={childboy} alt="Missing shoes" />
+                 <div className ={styles.prices}>
+             <p>$10.05</p>
+            </div>
+            <div className = {styles.buttons}>
+                <button>BUY NOW</button>
+            </div>
+            </div>
+       </div>
         </>
     )
 }
