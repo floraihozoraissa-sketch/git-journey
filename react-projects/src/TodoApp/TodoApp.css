@@ -1,13 +1,13 @@
 .todo-container{
     max-width: 500px;
     margin: 60px auto;
-    background-color: #f2f2f2;
+    background-color: #eaeff4;
     padding: 2rem;
     border-radius: 1rem;
 }
 .todo-container h1{
     text-align: center;
-    color: #333;
+    color: #333333;
 }
 form{
     display: flex;
@@ -25,7 +25,7 @@ form button{
     padding: 0.8rem 1.2rem;
     font-size: 1rem;
     border: none;
-    background-color: #4caf50;
+    background-color: #3e58ec;
     color: #fff;
     border-radius: 0.5rem;
     cursor: pointer;
